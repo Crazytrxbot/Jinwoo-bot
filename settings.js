@@ -17,7 +17,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || 'jinwoo:~ArMBgAID#ltmxM4A43yFihlpiv6bx5QHUq7XeQ-Jfh6ViQZT98JU' 
+global.SESSION_ID = process.env.SESSION_ID || 'jinwoo:~Im8wSBgK#w5Z755o9NCIlWb0FiPB9oSdGLwK4e3HYCoujCW7XWsc' 
 //Enter your Jinwoo session id here; must start with jinwoo:~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -69,7 +69,7 @@ global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'true'
 
 //--------------[ AUTO REACT STATUS ]--------------//
 
-global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'false'
+global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'true'
 // set true to enable and false to disable auto status react
 
 //---------------[ ALWAYS ONLINE ]------------------//
@@ -119,7 +119,7 @@ global.timezones = process.env.TIMEZONE || "Africa/Nairobi"
 
 //--------------------[ AUTO READ ]--------------------//
 
-global.autoread = process.env.AUTO_READ || 'false';
+global.autoread = process.env.AUTO_READ || 'true';
 // Set to 'true' to enable automatic reading of messages
 
 //-------------------[ MENU STYLE ]--------------------//
